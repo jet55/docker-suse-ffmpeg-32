@@ -1,5 +1,5 @@
 FROM opensuse:tumbleweed
-RUN zypper --no-gpg-checks -n ar -f -c http://packman.inode.at/suse/openSUSE_Tumbleweed/Essentials/Essentials packman-essentials \
+RUN zypper --no-gpg-checks -n ar -f -c http://packman.inode.at/suse/openSUSE_Tumbleweed/Essentials packman-essentials \
            && \
     zypper --non-interactive in \
               libstdc++6-32bit \

@@ -7,5 +7,6 @@ RUN zypper -n ar -G -f -c http://packman.inode.at/suse/openSUSE_Tumbleweed/Essen
               glibc-32bit \
               ffmpeg-3.4.2-6.2.i586 \
               libpulse0-32bit \
+              wireshark \
            && \
     zypper --non-interactive clean -a

@@ -5,7 +5,7 @@ RUN zypper -n ar -G -f -c http://packman.inode.at/suse/openSUSE_Tumbleweed/Essen
               libstdc++6-32bit \
               libgcc_s1-32bit \
               glibc-32bit \
-              ffmpeg-3.4.2-6.2.i586 \
+              ffmpeg-4-4.0.2-5.1.i586 \
               libpulse0-32bit \
               wireshark \
            && \
